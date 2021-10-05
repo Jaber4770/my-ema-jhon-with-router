@@ -1,0 +1,36 @@
+.product{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid lightgray;
+    margin-right: 1%;
+}
+.product-details{
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.product-name{
+    font-size: 18px;
+    color:blue;
+}
+.product-price{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.purches-button{
+    background-color: rgb(252, 181, 51);
+    padding: 4px 70px;
+    border:1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-details-main{
+    margin-bottom: 2%;
+}
+.features-style{
+    font-weight: 700;
+    font-size: 17px;
+}
+.icon-color{
+    color: gold;
+}
